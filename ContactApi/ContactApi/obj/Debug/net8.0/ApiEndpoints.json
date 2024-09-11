@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "ContactApi.Controllers.ContactsController",
+    "Method": "GetAllContacts",
+    "RelativePath": "api/Contacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ContactApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

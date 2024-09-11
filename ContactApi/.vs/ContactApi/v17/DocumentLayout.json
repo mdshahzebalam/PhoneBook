@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "E:\\Projects\\ContactBook\\PhoneBook\\ContactApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|e:\\projects\\contactbook\\phonebook\\contactapi\\contactapi\\models\\addcontactrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|solutionrelative:contactapi\\models\\addcontactrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|e:\\projects\\contactbook\\phonebook\\contactapi\\contactapi\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|solutionrelative:contactapi\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|e:\\projects\\contactbook\\phonebook\\contactapi\\contactapi\\models\\domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|solutionrelative:contactapi\\models\\domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|e:\\projects\\contactbook\\phonebook\\contactapi\\contactapi\\data\\contactdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|e:\\projects\\contactbook\\phonebook\\contactapi\\contactapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|solutionrelative:contactapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|e:\\projects\\contactbook\\phonebook\\contactapi\\contactapi\\models\\domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98AEACCA-0CC1-4F96-BAF7-DC160D0EEF06}|ContactApi\\ContactApi.csproj|solutionrelative:contactapi\\models\\domain\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,19 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AddContactRequestDTO.cs",
+              "DocumentMoniker": "E:\\Projects\\ContactBook\\PhoneBook\\ContactApi\\ContactApi\\Models\\AddContactRequestDTO.cs",
+              "RelativeDocumentMoniker": "ContactApi\\Models\\AddContactRequestDTO.cs",
+              "ToolTip": "E:\\Projects\\ContactBook\\PhoneBook\\ContactApi\\ContactApi\\Models\\AddContactRequestDTO.cs",
+              "RelativeToolTip": "ContactApi\\Models\\AddContactRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:32:03.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "E:\\Projects\\ContactBook\\PhoneBook\\ContactApi\\ContactApi\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "ContactApi\\Controllers\\ContactsController.cs",
               "ToolTip": "E:\\Projects\\ContactBook\\PhoneBook\\ContactApi\\ContactApi\\Controllers\\ContactsController.cs",
               "RelativeToolTip": "ContactApi\\Controllers\\ContactsController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAxwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T07:07:03.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Projects\\ContactBook\\PhoneBook\\ContactApi\\ContactApi\\Program.cs",
               "RelativeDocumentMoniker": "ContactApi\\Program.cs",
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ContactDbContext.cs",
               "DocumentMoniker": "E:\\Projects\\ContactBook\\PhoneBook\\ContactApi\\ContactApi\\Data\\ContactDbContext.cs",
               "RelativeDocumentMoniker": "ContactApi\\Data\\ContactDbContext.cs",
@@ -77,13 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Contact.cs",
               "DocumentMoniker": "E:\\Projects\\ContactBook\\PhoneBook\\ContactApi\\ContactApi\\Models\\Domain\\Contact.cs",
               "RelativeDocumentMoniker": "ContactApi\\Models\\Domain\\Contact.cs",
               "ToolTip": "E:\\Projects\\ContactBook\\PhoneBook\\ContactApi\\ContactApi\\Models\\Domain\\Contact.cs",
               "RelativeToolTip": "ContactApi\\Models\\Domain\\Contact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T06:38:48.489Z",
               "EditorCaption": ""
