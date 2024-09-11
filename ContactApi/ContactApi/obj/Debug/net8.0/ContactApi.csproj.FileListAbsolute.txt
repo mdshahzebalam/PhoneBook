@@ -31,3 +31,6 @@ E:\Projects\ContactBook\PhoneBook\ContactApi\ContactApi\obj\Debug\net8.0\refint\
 E:\Projects\ContactBook\PhoneBook\ContactApi\ContactApi\obj\Debug\net8.0\ContactApi.pdb
 E:\Projects\ContactBook\PhoneBook\ContactApi\ContactApi\obj\Debug\net8.0\ContactApi.genruntimeconfig.cache
 E:\Projects\ContactBook\PhoneBook\ContactApi\ContactApi\obj\Debug\net8.0\ref\ContactApi.dll
+E:\Projects\ContactBook\PhoneBook\ContactApi\ContactApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Projects\ContactBook\PhoneBook\ContactApi\ContactApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Projects\ContactBook\PhoneBook\ContactApi\ContactApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
