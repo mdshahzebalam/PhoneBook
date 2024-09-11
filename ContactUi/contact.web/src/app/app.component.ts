@@ -1,13 +1,25 @@
-import { Component } from '@angular/core';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Observable } from 'rxjs';
+import { Contacts } from '../models/contaxt.model';
+import { AsyncPipe } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, HttpClientModule, AsyncPipe],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'contact.web';
+  http = inject(HttpClient);
+
+  contacts$ = this.getContacts();
+
+  private getContacts(): Observable<Contacts[]>
+  {
+    return this.http.get<Contacts[]>('https://localhost:7100/api/Contacts');
+    
+  }
 }
