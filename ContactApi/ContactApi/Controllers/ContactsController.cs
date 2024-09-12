@@ -39,5 +39,18 @@ namespace ContactApi.Controllers
 
             return Ok(domainModelContact);
         }
+
+        [HttpDelete]
+        [Route("{id:guid}")]
+        public IActionResult DeleteContact(Guid id) 
+        {
+            var contact = dbContext.Contacts.Find(id);
+            if (contact != null)
+            {
+                dbContext.Contacts.Remove(contact);
+                dbContext.SaveChanges();
+            }
+            return Ok();
+        }
     }
 }
