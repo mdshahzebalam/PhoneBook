@@ -45,6 +45,7 @@ export class AppComponent {
           }
       }
     )
+<<<<<<< HEAD
   }
   
   onDelete(id: string)
@@ -56,6 +57,8 @@ export class AppComponent {
         this.contacts$ = this.getContacts();
       }
     })
+=======
+>>>>>>> 74b83402b57477dbad0769f1be41ddd7c2cb59f2
   }
 
   private getContacts(): Observable<Contacts[]>
